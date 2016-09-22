@@ -1,0 +1,13 @@
+Pass a valid origin (6,33) ) and verify the response is a sorted in the order closest to farthest
+
+Pass negative origin values (-5, -56) and verify the response is a sorted in the order closest to farthest
+
+Pass a fraction of origin values (1/2, -5/6) and verify the response.
+
+Pass a decimal value for origin (.5, .25) and verify the response.
+
+Pass a non numeric and numeric value and verify the response (It should print invalid origin)
+
+Pass empty origin values and verify the response (It should return "Invalid origin)" 
+
+Note: I have not handled few checks in the code for non numeric values and empty values. I can do it, if needed.
